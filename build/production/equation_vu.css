@@ -1,0 +1,65 @@
+.diff_eq_inps_div {
+  padding: 16px;
+  background-color: lightblue;
+  border: solid;
+  border-width: 4px;
+  border-color: darkblue;
+  border-radius: 8px;
+  font-size: large;
+  font-weight: bold; }
+
+.diff_eq_span {
+  width: 64%;
+  margin-right: 3%;
+  margin-left: 1%; }
+
+#diff_eq_inp {
+  box-sizing: border-box;
+  width: 100%;
+  height: 48px;
+  padding: 5px;
+  outline: none;
+  border: solid;
+  border-color: indigo;
+  border-width: 3px;
+  border-radius: 10px;
+  font-size: large;
+  font-weight: bold; }
+
+.interval_div, .diff_eq_div {
+  display: flex;
+  /* NEW, Spec - Firefox, Chrome, Opera */
+  justify-content: center;
+  align-items: center; }
+
+.interval_inp {
+  width: 8%;
+  height: 24px;
+  margin: 3px;
+  margin-right: 40px;
+  padding: 5px;
+  outline: none;
+  border: solid;
+  border-color: indigo;
+  border-width: 2px;
+  border-radius: 8px;
+  font-size: medium;
+  font-weight: bold; }
+
+button {
+  margin-left: 5%;
+  width: 72px;
+  height: 36px;
+  text-align: center;
+  font-weight: bold;
+  background-color: darkblue;
+  color: white;
+  border-radius: 8px;
+  border: 2px solid lemonchiffon; }
+
+button:hover {
+  background-color: lightgreen;
+  /* Green */
+  color: darkblue;
+  font-weight: bold;
+  border: 4px solid blueviolet; }

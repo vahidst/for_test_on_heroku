@@ -1,0 +1,8 @@
+#my_header_div {
+  background-color: cyan;
+  height: 150px;
+  border: solid;
+  border-width: 4px;
+  border-color: darkblue;
+  border-radius: 8px;
+  text-align: center; }
