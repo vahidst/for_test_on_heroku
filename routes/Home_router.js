@@ -8,8 +8,8 @@ var React_dom=require('react-dom');
 
 
 router.get('/' , function(req, res){
-    // res.render('Home', { title: 'Home' , name: 'John' });
-  }
+  res.sendFile(path.join(__dirname + '/../Client_side/nonlindqem1d.html'));
+}
 );
 
 
