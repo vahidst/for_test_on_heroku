@@ -2,9 +2,7 @@
 
 var express=require('express');
 var router   =express.Router();
-
-var React=require('react');
-var React_dom=require('react-dom');
+var path = require('path');
 
 
 router.get('/' , function(req, res){
