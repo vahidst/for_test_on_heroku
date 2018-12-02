@@ -513,6 +513,7 @@ var equation_vu = function (_React$Component) {
             'from: '
           ),
           React.createElement('input', { type: 'number', className: 'interval_inp', id: 'x0',
+            value: 'x*diff(u,x,2)+3*diff(u,x,1)-8x',
             onChange: this.on_x0_Change }),
           React.createElement(
             'label',
